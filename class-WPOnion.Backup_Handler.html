@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WPOnion\Backup_Handler</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-WPOnion.html">
+						WPOnion<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Bridge.html">
+						Bridge					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.DB.html">
+						DB					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Field.html">
+						Field					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Modules.html">
+						Modules<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.html">
+						Customize<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.Control.html">
+						Control					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-WPOnion.Registry.html">
+						Registry					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WPOnion.Assets.html">Assets</a></li>
+				<li><a href="class-WPOnion.Async_Request.html">Async_Request</a></li>
+				<li><a href="class-WPOnion.Autoloader.html">Autoloader</a></li>
+				<li class="active"><a href="class-WPOnion.Backup_Handler.html">Backup_Handler</a></li>
+				<li><a href="class-WPOnion.Bridge.html">Bridge</a></li>
+				<li><a href="class-WPOnion.Core_Ajax.html">Core_Ajax</a></li>
+				<li><a href="class-WPOnion.Field.html">Field</a></li>
+				<li><a href="class-WPOnion.Helper.html">Helper</a></li>
+				<li><a href="class-WPOnion.Icons.html">Icons</a></li>
+				<li><a href="class-WPOnion.Localize_API.html">Localize_API</a></li>
+				<li><a href="class-WPOnion.Module_Fields.html">Module_Fields</a></li>
+				<li><a href="class-WPOnion.Sysinfo.html">Sysinfo</a></li>
+				<li><a href="class-WPOnion.Theme_API.html">Theme_API</a></li>
+				<li><a href="class-WPOnion.Themes.html">Themes</a></li>
+				<li><a href="class-WPOnion.WP_List_Table.html">WP_List_Table</a></li>
+				<li><a href="class-WPOnion.WP_Nav_Menu_Walker.html">WP_Nav_Menu_Walker</a></li>
+				<li><a href="class-WPOnion.WP_Sysinfo.html">WP_Sysinfo</a></li>
+				<li><a href="class-WPOnion.WP_Widget.html">WP_Widget</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-WPOnion.html" title="Summary of WPOnion"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Backup_Handler</h1>
+
+
+	<div class="description">
+	<p>Class Backup_Handler</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-WPOnion.html">WPOnion</a><br>
+		<b>Package:</b> WPOnion<br>
+
+				<b>Author:</b>
+				Varun Sridharan <a href="&#109;&#x61;i&#108;&#x74;&#111;&#58;&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a><br>
+				<b>Since:</b>
+				1.0<br>
+			<b>Located at</b> <a href="source-class-WPOnion.Backup_Handler.html#19-194" title="Go to source code">core/class-backup-handler.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="get_from_db" id="_get_from_db">
+
+		<td class="attributes"><code>
+			 public static
+
+			array|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_from_db">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#27-47" title="Go to source code">get_from_db</a>( <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span>boolean <var>$extra</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_backups" id="_get_backups">
+
+		<td class="attributes"><code>
+			 public static
+
+			array|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_backups">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#49-62" title="Go to source code">get_backups</a>( <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span> <var>$extra</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks and returns a backup array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks and returns a backup array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save_backup" id="_save_backup">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save_backup">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#64-81" title="Go to source code">save_backup</a>( <span> <var>$backup</var></span>, <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span>boolean <var>$extra</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$backup</var></dt>
+					<dd></dd>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="new_backup" id="_new_backup">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_new_backup">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#83-98" title="Go to source code">new_backup</a>( <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span>boolean <var>$extra</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_backup_lists" id="_get_backup_lists">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_backup_lists">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#100-126" title="Go to source code">get_backup_lists</a>( <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span> <var>$extra</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete_backup" id="_delete_backup">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete_backup">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#128-145" title="Go to source code">delete_backup</a>( <span> <var>$backup_id</var></span>, <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span> <var>$extra</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$backup_id</var></dt>
+					<dd></dd>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_backup" id="_get_backup">
+
+		<td class="attributes"><code>
+			 public static
+
+			array|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_backup">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#147-161" title="Go to source code">get_backup</a>( <span> <var>$backup_id</var></span>, <span> <var>$unqiue</var></span>, <span> <var>$module</var></span>, <span> <var>$extra</var></span> )</code>
+
+		<div class="description short">
+			<p>Returns a Sepefic Backup.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns a Sepefic Backup.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$backup_id</var></dt>
+					<dd></dd>
+					<dt><var>$unqiue</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="restore_backup" id="_restore_backup">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_restore_backup">#</a>
+		<code><a href="source-class-WPOnion.Backup_Handler.html#163-193" title="Go to source code">restore_backup</a>( <span> <var>$backup_id</var></span>, <span> <var>$unique</var></span>, <span> <var>$module</var></span>, <span> <var>$extra</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$backup_id</var></dt>
+					<dd></dd>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+					<dt><var>$module</var></dt>
+					<dd></dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?e2f502150713aec2ca8e9da352056a47d37ca46d"></script>
+<script src="elementlist.js?2905db8f00259dfc78e62480f79b8d92da6b589b"></script>
+</body>
+</html>

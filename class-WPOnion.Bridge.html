@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WPOnion\Bridge</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-WPOnion.html">
+						WPOnion<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Bridge.html">
+						Bridge					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.DB.html">
+						DB					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Field.html">
+						Field					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Modules.html">
+						Modules<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.html">
+						Customize<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.Control.html">
+						Control					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-WPOnion.Registry.html">
+						Registry					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WPOnion.Assets.html">Assets</a></li>
+				<li><a href="class-WPOnion.Async_Request.html">Async_Request</a></li>
+				<li><a href="class-WPOnion.Autoloader.html">Autoloader</a></li>
+				<li><a href="class-WPOnion.Backup_Handler.html">Backup_Handler</a></li>
+				<li class="active"><a href="class-WPOnion.Bridge.html">Bridge</a></li>
+				<li><a href="class-WPOnion.Core_Ajax.html">Core_Ajax</a></li>
+				<li><a href="class-WPOnion.Field.html">Field</a></li>
+				<li><a href="class-WPOnion.Helper.html">Helper</a></li>
+				<li><a href="class-WPOnion.Icons.html">Icons</a></li>
+				<li><a href="class-WPOnion.Localize_API.html">Localize_API</a></li>
+				<li><a href="class-WPOnion.Module_Fields.html">Module_Fields</a></li>
+				<li><a href="class-WPOnion.Sysinfo.html">Sysinfo</a></li>
+				<li><a href="class-WPOnion.Theme_API.html">Theme_API</a></li>
+				<li><a href="class-WPOnion.Themes.html">Themes</a></li>
+				<li><a href="class-WPOnion.WP_List_Table.html">WP_List_Table</a></li>
+				<li><a href="class-WPOnion.WP_Nav_Menu_Walker.html">WP_Nav_Menu_Walker</a></li>
+				<li><a href="class-WPOnion.WP_Sysinfo.html">WP_Sysinfo</a></li>
+				<li><a href="class-WPOnion.WP_Widget.html">WP_Widget</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-WPOnion.html" title="Summary of WPOnion"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Bridge</h1>
+
+
+	<div class="description">
+	<p>Class Bridge</p>
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-WPOnion.Bridge.Module.html">WPOnion\Bridge\Module</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html">WPOnion\Core\Array_Finder</a>, 
+			<a href="class-WPOnion.Core_Ajax.html">WPOnion\Core_Ajax</a>, 
+			<a href="class-WPOnion.DB.Query.html">WPOnion\DB\Query</a>, 
+			<a href="class-WPOnion.DB.Save_Handler.html">WPOnion\DB\Save_Handler</a>, 
+			<a href="class-WPOnion.Field.html">WPOnion\Field</a>, 
+			<a href="class-WPOnion.Localize_API.html">WPOnion\Localize_API</a>, 
+			<a href="class-WPOnion.Modules.Admin_Notice.html">WPOnion\Modules\Admin_Notice</a>, 
+			<a href="class-WPOnion.Theme_API.html">WPOnion\Theme_API</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-WPOnion.DB.Dashboard_Widgets_Save_Handler.html">WPOnion\DB\Dashboard_Widgets_Save_Handler</a>, 
+			<a href="class-WPOnion.DB.Media_Fields_Save_Handler.html">WPOnion\DB\Media_Fields_Save_Handler</a>, 
+			<a href="class-WPOnion.Field.Accordion.html">WPOnion\Field\Accordion</a>, 
+			<a href="class-WPOnion.Field.Background.html">WPOnion\Field\Background</a>, 
+			<a href="class-WPOnion.Field.Backup.html">WPOnion\Field\Backup</a>, 
+			<a href="class-WPOnion.Field.Button.html">WPOnion\Field\Button</a>, 
+			<a href="class-WPOnion.Field.Card.html">WPOnion\Field\Card</a>, 
+			<a href="class-WPOnion.Field.Checkbox_Radio.html">WPOnion\Field\Checkbox_Radio</a>, 
+			<a href="class-WPOnion.Field.Cloner.html">WPOnion\Field\Cloner</a>, 
+			<a href="class-WPOnion.Field.Color_Picker.html">WPOnion\Field\Color_Picker</a>, 
+			<a href="class-WPOnion.Field.Content.html">WPOnion\Field\Content</a>, 
+			<a href="class-WPOnion.Field.Date_Picker.html">WPOnion\Field\Date_Picker</a>, 
+			<a href="class-WPOnion.DB.Metabox_Save_Handler.html">WPOnion\DB\Metabox_Save_Handler</a>, 
+			<a href="class-WPOnion.Field.Fieldset.html">WPOnion\Field\Fieldset</a>, 
+			<a href="class-WPOnion.Field.Font_Picker.html">WPOnion\Field\Font_Picker</a>, 
+			<a href="class-WPOnion.Field.Google_Maps.html">WPOnion\Field\Google_Maps</a>, 
+			<a href="class-WPOnion.Field.Group.html">WPOnion\Field\Group</a>, 
+			<a href="class-WPOnion.Field.Heading.html">WPOnion\Field\Heading</a>, 
+			<a href="class-WPOnion.Field.Hidden.html">WPOnion\Field\Hidden</a>, 
+			<a href="class-WPOnion.Field.Icon_Picker.html">WPOnion\Field\Icon_Picker</a>, 
+			<a href="class-WPOnion.Field.Iframe.html">WPOnion\Field\Iframe</a>, 
+			<a href="class-WPOnion.Field.Image.html">WPOnion\Field\Image</a>, 
+			<a href="class-WPOnion.Field.Jambo_Content.html">WPOnion\Field\Jambo_Content</a>, 
+			<a href="class-WPOnion.DB.Nav_Menu_Save_Handler.html">WPOnion\DB\Nav_Menu_Save_Handler</a>, 
+			<a href="class-WPOnion.Field.Key_Value.html">WPOnion\Field\Key_Value</a>, 
+			<a href="class-WPOnion.Field.Notice.html">WPOnion\Field\Notice</a>, 
+			<a href="class-WPOnion.Field.Notice_Danger.html">WPOnion\Field\Notice_Danger</a>, 
+			<a href="class-WPOnion.Field.Notice_Dark.html">WPOnion\Field\Notice_Dark</a>, 
+			<a href="class-WPOnion.Field.Notice_Info.html">WPOnion\Field\Notice_Info</a>, 
+			<a href="class-WPOnion.Field.Notice_Light.html">WPOnion\Field\Notice_Light</a>, 
+			<a href="class-WPOnion.Field.Notice_Primary.html">WPOnion\Field\Notice_Primary</a>, 
+			<a href="class-WPOnion.Field.Notice_Secondary.html">WPOnion\Field\Notice_Secondary</a>, 
+			<a href="class-WPOnion.Field.Notice_Success.html">WPOnion\Field\Notice_Success</a>, 
+			<a href="class-WPOnion.Field.Notice_Warning.html">WPOnion\Field\Notice_Warning</a>, 
+			<a href="class-WPOnion.DB.Quick_Edit_Save_Handler.html">WPOnion\DB\Quick_Edit_Save_Handler</a>, 
+			<a href="class-WPOnion.Field.OEmbed.html">WPOnion\Field\OEmbed</a>, 
+			<a href="class-WPOnion.Field.Radio.html">WPOnion\Field\Radio</a>, 
+			<a href="class-WPOnion.Field.Select.html">WPOnion\Field\Select</a>, 
+			<a href="class-WPOnion.Field.Sorter.html">WPOnion\Field\Sorter</a>, 
+			<a href="class-WPOnion.Field.Subheading.html">WPOnion\Field\Subheading</a>, 
+			<a href="class-WPOnion.Field.Switcher.html">WPOnion\Field\Switcher</a>, 
+			<a href="class-WPOnion.Field.Tab.html">WPOnion\Field\Tab</a>, 
+			<a href="class-WPOnion.Field.Text.html">WPOnion\Field\Text</a>, 
+			<a href="class-WPOnion.Field.Typography.html">WPOnion\Field\Typography</a>, 
+			<a href="class-WPOnion.Field.Upload.html">WPOnion\Field\Upload</a>, 
+			<a href="class-WPOnion.DB.Settings_Save_Handler.html">WPOnion\DB\Settings_Save_Handler</a>, 
+			<a href="class-WPOnion.Field.WP_Editor.html">WPOnion\Field\WP_Editor</a>, 
+			<a href="class-WPOnion.Field.WP_Error_Notice.html">WPOnion\Field\WP_Error_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Info_Notice.html">WPOnion\Field\WP_Info_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Link.html">WPOnion\Field\WP_Link</a>, 
+			<a href="class-WPOnion.Field.WP_List_Table.html">WPOnion\Field\WP_List_Table</a>, 
+			<a href="class-WPOnion.Field.WP_Notice.html">WPOnion\Field\WP_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Success_Notice.html">WPOnion\Field\WP_Success_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Warning_Notice.html">WPOnion\Field\WP_Warning_Notice</a>, 
+			<a href="class-WPOnion.Module_Fields.html">WPOnion\Module_Fields</a>, 
+			<a href="class-WPOnion.Modules.Admin_Bar.html">WPOnion\Modules\Admin_Bar</a>, 
+			<a href="class-WPOnion.DB.Taxonomy_Save_Handler.html">WPOnion\DB\Taxonomy_Save_Handler</a>, 
+			<a href="class-WPOnion.Modules.Admin_Columns.html">WPOnion\Modules\Admin_Columns</a>, 
+			<a href="class-WPOnion.Modules.Admin_Notices.html">WPOnion\Modules\Admin_Notices</a>, 
+			<a href="class-WPOnion.Modules.Admin_Page.html">WPOnion\Modules\Admin_Page</a>, 
+			<a href="class-WPOnion.Modules.Bulk_Edit.html">WPOnion\Modules\Bulk_Edit</a>, 
+			<a href="class-WPOnion.Modules.Customizer.html">WPOnion\Modules\Customizer</a>, 
+			<a href="class-WPOnion.Modules.Dashboard_Widgets.html">WPOnion\Modules\Dashboard_Widgets</a>, 
+			<a href="class-WPOnion.Modules.GuttenBerg.html">WPOnion\Modules\GuttenBerg</a>, 
+			<a href="class-WPOnion.Modules.Help_Tabs.html">WPOnion\Modules\Help_Tabs</a>, 
+			<a href="class-WPOnion.Modules.Media_Fields.html">WPOnion\Modules\Media_Fields</a>, 
+			<a href="class-WPOnion.Modules.Metabox.html">WPOnion\Modules\Metabox</a>, 
+			<a href="class-WPOnion.DB.User_Profile_Save_Handler.html">WPOnion\DB\User_Profile_Save_Handler</a>, 
+			<a href="class-WPOnion.Modules.Nav_Menu.html">WPOnion\Modules\Nav_Menu</a>, 
+			<a href="class-WPOnion.Modules.Network_Settings.html">WPOnion\Modules\Network_Settings</a>, 
+			<a href="class-WPOnion.Modules.Quick_Edit.html">WPOnion\Modules\Quick_Edit</a>, 
+			<a href="class-WPOnion.Modules.Screen_Options.html">WPOnion\Modules\Screen_Options</a>, 
+			<a href="class-WPOnion.Modules.Settings.html">WPOnion\Modules\Settings</a>, 
+			<a href="class-WPOnion.Modules.Taxonomy.html">WPOnion\Modules\Taxonomy</a>, 
+			<a href="class-WPOnion.Modules.User_Profile.html">WPOnion\Modules\User_Profile</a>, 
+			<a href="class-WPOnion.Modules.Widget.html">WPOnion\Modules\Widget</a>, 
+			<a href="class-WPOnion.Modules.WooCommerce.html">WPOnion\Modules\WooCommerce</a>, 
+			<a href="class-WPOnion_Fresh_Theme.html">WPOnion_Fresh_Theme</a>, 
+			<a href="class-WPOnion.DB.Widgets_Save_Handler.html">WPOnion\DB\Widgets_Save_Handler</a>, 
+			<a href="class-WPOnion_Modern_Theme.html">WPOnion_Modern_Theme</a>, 
+			<a href="class-WPOnion_Wp_Theme.html">WPOnion_Wp_Theme</a>, 
+			<a href="class-WPOnion.DB.WooCommerce_Save_Handler.html">WPOnion\DB\WooCommerce_Save_Handler</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> <a href="namespace-WPOnion.html">WPOnion</a><br>
+		<b>Package:</b> WPOnion<br>
+
+				<b>Author:</b>
+				Varun Sridharan <a href="&#109;&#x61;i&#108;&#x74;&#111;&#58;&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a><br>
+				<b>Since:</b>
+				1.0<br>
+			<b>Located at</b> <a href="source-class-WPOnion.Bridge.html#22-287" title="Go to source code">core/abstract/class-bridge.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="set_args" id="_set_args">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_args">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#53-65" title="Go to source code">set_args</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$defaults</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Merges And sets the given args</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Merges And sets the given args</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd>.</dd>
+					<dt><var>$defaults</var></dt>
+					<dd>.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_args" id="_parse_args">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse_args">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#67-78" title="Go to source code">parse_args</a>( <span>array <var>$new</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$defaults</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Merges given array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Merges given array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$new</var></dt>
+					<dd>.</dd>
+					<dt><var>$defaults</var></dt>
+					<dd>.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="defaults" id="_defaults">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_defaults">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#80-87" title="Go to source code">defaults</a>( )</code>
+
+		<div class="description short">
+			<p>Returns a default array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns a default array.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add_action" id="_add_action">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add_action">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#89-101" title="Go to source code">add_action</a>( <span>string <var>$hook</var></span>, <span>callable|array <var>$function_to_add</var></span>, <span>integer <var>$priority</var> = <span class="php-num">30</span></span>, <span>integer <var>$accepted_args</var> = <span class="php-num">1</span> </span> )</code>
+
+		<div class="description short">
+			<p>Add a function to a hook with like add_action() function dose.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a function to a hook with like add_action() function dose.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$hook</var></dt>
+					<dd></dd>
+					<dt><var>$function_to_add</var></dt>
+					<dd></dd>
+					<dt><var>$priority</var></dt>
+					<dd></dd>
+					<dt><var>$accepted_args</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+				<h4>Uses</h4>
+				<div class="list">
+						<code><a href="class-WPOnion.Bridge.html#_add_action">WPOnion\Bridge::add_action()</a></code><br>
+				</div>
+				<h4>Used by</h4>
+				<div class="list">
+						WPOnion\Bridge::add_action()<br>
+						WPOnion\Bridge::add_filter()<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add_filter" id="_add_filter">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add_filter">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#103-115" title="Go to source code">add_filter</a>( <span> <var>$tag</var></span>, <span> <var>$function_to_add</var></span>, <span>integer <var>$priority</var> = <span class="php-num">30</span></span>, <span>integer <var>$accepted_args</var> = <span class="php-num">1</span> </span> )</code>
+
+		<div class="description short">
+			<p>add a function to a hook with like add_filter() function dose.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>add a function to a hook with like add_filter() function dose.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$tag</var></dt>
+					<dd></dd>
+					<dt><var>$function_to_add</var></dt>
+					<dd></dd>
+					<dt><var>$priority</var></dt>
+					<dd></dd>
+					<dt><var>$accepted_args</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+				<h4>Uses</h4>
+				<div class="list">
+						<code><a href="class-WPOnion.Bridge.html#_add_action">WPOnion\Bridge::add_action()</a></code><br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_action" id="__action">
+
+		<td class="attributes"><code>
+			 protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__action">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#132-140" title="Go to source code">_action</a>( )</code>
+
+		<div class="description short">
+			<p>Triggers doaction for the given slug
+with global &amp; plugin Specific slugs</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Triggers doaction for the given slug
+with global &amp; plugin Specific slugs</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="global_action_filter" id="_global_action_filter">
+
+		<td class="attributes"><code>
+			 protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_global_action_filter">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#142-159" title="Go to source code">global_action_filter</a>( <span>string <var>$type</var> = <span class="php-quote">'apply_filters'</span></span>, <span>array <var>$args</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Triggers doaction &amp; apply filter for the given slug
+with global &amp; plugin Specific slugs</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Triggers doaction &amp; apply filter for the given slug
+with global &amp; plugin Specific slugs</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd></dd>
+					<dt><var>$args</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_action_filter_slugs" id="_get_action_filter_slugs">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_action_filter_slugs">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#161-173" title="Go to source code">get_action_filter_slugs</a>( <span>boolean <var>$plugin_id</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			<p>Returns Custom Prefix For Every Action &amp; Filter Applied By WPSF</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Custom Prefix For Every Action &amp; Filter Applied By WPSF</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$plugin_id</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generate_filter_slug" id="_generate_filter_slug">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generate_filter_slug">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#175-191" title="Go to source code">generate_filter_slug</a>( <span>array <var>$args</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Generates Slug For Apply Filters.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates Slug For Apply Filters.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$args</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_filter" id="__filter">
+
+		<td class="attributes"><code>
+			 protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__filter">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#193-201" title="Go to source code">_filter</a>( )</code>
+
+		<div class="description short">
+			<p>Triggers apply filter for the given slug
+with global &amp; plugin Specific slugs</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Triggers apply filter for the given slug
+with global &amp; plugin Specific slugs</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="option" id="_option">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_option">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#203-216" title="Go to source code">option</a>( <span>string <var>$key</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$default</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks for values in $this->settings and returns it if exists.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks for values in $this->settings and returns it if exists.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$default</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_option" id="_set_option">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_option">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#219-230" title="Go to source code">set_option</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>Updates $this->settings array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Updates $this->settings array.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="plugin_id" id="_plugin_id">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_plugin_id">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#232-239" title="Go to source code">plugin_id</a>( )</code>
+
+		<div class="description short">
+			<p>Returns current plugin_id</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns current plugin_id</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="module" id="_module">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_module">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#241-248" title="Go to source code">module</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Current Module Slug.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Current Module Slug.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle_data" id="_handle_data">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle_data">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#250-268" title="Go to source code">handle_data</a>( <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$defaults</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$save_with</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks And handles data.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks And handles data.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+					<dt><var>$defaults</var></dt>
+					<dd></dd>
+					<dt><var>$save_with</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="catch_output" id="_catch_output">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_catch_output">#</a>
+		<code><a href="source-class-WPOnion.Bridge.html#270-286" title="Go to source code">catch_output</a>( <span>string <var>$status</var> = <span class="php-quote">'start'</span> </span> )</code>
+
+		<div class="description short">
+			<p>Catchs Output.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Catchs Output.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$status</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="plugin_id" id="$plugin_id">
+		<td class="attributes"><code>
+			protected  
+			null.
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.html#30-37" title="Go to source code"><var>$plugin_id</var></a>
+
+			<div class="description short">
+				<p>Plugin_id
+This is used in do_action &amp; apply_filters to provide plugin developers with a custom hook to run only when
+their instance is created / running.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Plugin_id
+This is used in do_action &amp; apply_filters to provide plugin developers with a custom hook to run only when
+their instance is created / running.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$plugin_id" class="anchor">#</a>
+				<code><span class="php-keyword1">null</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="settings" id="$settings">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.html#39-44" title="Go to source code"><var>$settings</var></a>
+
+			<div class="description short">
+				<p>Settings</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Settings</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$settings" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="module" id="$module">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.html#46-51" title="Go to source code"><var>$module</var></a>
+
+			<div class="description short">
+				<p>Type - Value can be anything like (settings,text_field)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Type - Value can be anything like (settings,text_field)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$module" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?e2f502150713aec2ca8e9da352056a47d37ca46d"></script>
+<script src="elementlist.js?2905db8f00259dfc78e62480f79b8d92da6b589b"></script>
+</body>
+</html>

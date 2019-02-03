@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WPOnion\Field</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-WPOnion.html">
+						WPOnion<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Bridge.html">
+						Bridge					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.DB.html">
+						DB					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Field.html">
+						Field					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Modules.html">
+						Modules<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.html">
+						Customize<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.Control.html">
+						Control					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-WPOnion.Registry.html">
+						Registry					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WPOnion.Assets.html">Assets</a></li>
+				<li><a href="class-WPOnion.Async_Request.html">Async_Request</a></li>
+				<li><a href="class-WPOnion.Autoloader.html">Autoloader</a></li>
+				<li><a href="class-WPOnion.Backup_Handler.html">Backup_Handler</a></li>
+				<li><a href="class-WPOnion.Bridge.html">Bridge</a></li>
+				<li><a href="class-WPOnion.Core_Ajax.html">Core_Ajax</a></li>
+				<li class="active"><a href="class-WPOnion.Field.html">Field</a></li>
+				<li><a href="class-WPOnion.Helper.html">Helper</a></li>
+				<li><a href="class-WPOnion.Icons.html">Icons</a></li>
+				<li><a href="class-WPOnion.Localize_API.html">Localize_API</a></li>
+				<li><a href="class-WPOnion.Module_Fields.html">Module_Fields</a></li>
+				<li><a href="class-WPOnion.Sysinfo.html">Sysinfo</a></li>
+				<li><a href="class-WPOnion.Theme_API.html">Theme_API</a></li>
+				<li><a href="class-WPOnion.Themes.html">Themes</a></li>
+				<li><a href="class-WPOnion.WP_List_Table.html">WP_List_Table</a></li>
+				<li><a href="class-WPOnion.WP_Nav_Menu_Walker.html">WP_Nav_Menu_Walker</a></li>
+				<li><a href="class-WPOnion.WP_Sysinfo.html">WP_Sysinfo</a></li>
+				<li><a href="class-WPOnion.WP_Widget.html">WP_Widget</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-WPOnion.html" title="Summary of WPOnion"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Field</h1>
+
+
+	<div class="description">
+	<p>Class Field</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-WPOnion.Bridge.html"><span>WPOnion\Bridge</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>WPOnion\Field</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-WPOnion.Field.Accordion.html">WPOnion\Field\Accordion</a>, 
+			<a href="class-WPOnion.Field.Background.html">WPOnion\Field\Background</a>, 
+			<a href="class-WPOnion.Field.Fieldset.html">WPOnion\Field\Fieldset</a>, 
+			<a href="class-WPOnion.Field.Font_Picker.html">WPOnion\Field\Font_Picker</a>, 
+			<a href="class-WPOnion.Field.Google_Maps.html">WPOnion\Field\Google_Maps</a>, 
+			<a href="class-WPOnion.Field.Heading.html">WPOnion\Field\Heading</a>, 
+			<a href="class-WPOnion.Field.Hidden.html">WPOnion\Field\Hidden</a>, 
+			<a href="class-WPOnion.Field.Icon_Picker.html">WPOnion\Field\Icon_Picker</a>, 
+			<a href="class-WPOnion.Field.Iframe.html">WPOnion\Field\Iframe</a>, 
+			<a href="class-WPOnion.Field.Image.html">WPOnion\Field\Image</a>, 
+			<a href="class-WPOnion.Field.Key_Value.html">WPOnion\Field\Key_Value</a>, 
+			<a href="class-WPOnion.Field.Select.html">WPOnion\Field\Select</a>, 
+			<a href="class-WPOnion.Field.Backup.html">WPOnion\Field\Backup</a>, 
+			<a href="class-WPOnion.Field.Sorter.html">WPOnion\Field\Sorter</a>, 
+			<a href="class-WPOnion.Field.Tab.html">WPOnion\Field\Tab</a>, 
+			<a href="class-WPOnion.Field.Text.html">WPOnion\Field\Text</a>, 
+			<a href="class-WPOnion.Field.Typography.html">WPOnion\Field\Typography</a>, 
+			<a href="class-WPOnion.Field.Upload.html">WPOnion\Field\Upload</a>, 
+			<a href="class-WPOnion.Field.WP_Editor.html">WPOnion\Field\WP_Editor</a>, 
+			<a href="class-WPOnion.Field.WP_Link.html">WPOnion\Field\WP_Link</a>, 
+			<a href="class-WPOnion.Field.WP_List_Table.html">WPOnion\Field\WP_List_Table</a>, 
+			<a href="class-WPOnion.Field.Button.html">WPOnion\Field\Button</a>, 
+			<a href="class-WPOnion.Field.Card.html">WPOnion\Field\Card</a>, 
+			<a href="class-WPOnion.Field.Checkbox_Radio.html">WPOnion\Field\Checkbox_Radio</a>, 
+			<a href="class-WPOnion.Field.Cloner.html">WPOnion\Field\Cloner</a>, 
+			<a href="class-WPOnion.Field.Color_Picker.html">WPOnion\Field\Color_Picker</a>, 
+			<a href="class-WPOnion.Field.Content.html">WPOnion\Field\Content</a>, 
+			<a href="class-WPOnion.Field.Date_Picker.html">WPOnion\Field\Date_Picker</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-WPOnion.Field.Group.html">WPOnion\Field\Group</a>, 
+			<a href="class-WPOnion.Field.Jambo_Content.html">WPOnion\Field\Jambo_Content</a>, 
+			<a href="class-WPOnion.Field.Notice_Warning.html">WPOnion\Field\Notice_Warning</a>, 
+			<a href="class-WPOnion.Field.OEmbed.html">WPOnion\Field\OEmbed</a>, 
+			<a href="class-WPOnion.Field.Radio.html">WPOnion\Field\Radio</a>, 
+			<a href="class-WPOnion.Field.Subheading.html">WPOnion\Field\Subheading</a>, 
+			<a href="class-WPOnion.Field.Switcher.html">WPOnion\Field\Switcher</a>, 
+			<a href="class-WPOnion.Field.WP_Error_Notice.html">WPOnion\Field\WP_Error_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Info_Notice.html">WPOnion\Field\WP_Info_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Notice.html">WPOnion\Field\WP_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Success_Notice.html">WPOnion\Field\WP_Success_Notice</a>, 
+			<a href="class-WPOnion.Field.WP_Warning_Notice.html">WPOnion\Field\WP_Warning_Notice</a>, 
+			<a href="class-WPOnion.Field.Notice.html">WPOnion\Field\Notice</a>, 
+			<a href="class-WPOnion.Field.Notice_Danger.html">WPOnion\Field\Notice_Danger</a>, 
+			<a href="class-WPOnion.Field.Notice_Dark.html">WPOnion\Field\Notice_Dark</a>, 
+			<a href="class-WPOnion.Field.Notice_Info.html">WPOnion\Field\Notice_Info</a>, 
+			<a href="class-WPOnion.Field.Notice_Light.html">WPOnion\Field\Notice_Light</a>, 
+			<a href="class-WPOnion.Field.Notice_Primary.html">WPOnion\Field\Notice_Primary</a>, 
+			<a href="class-WPOnion.Field.Notice_Secondary.html">WPOnion\Field\Notice_Secondary</a>, 
+			<a href="class-WPOnion.Field.Notice_Success.html">WPOnion\Field\Notice_Success</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> <a href="namespace-WPOnion.html">WPOnion</a><br>
+		<b>Package:</b> WPOnion\Bridge<br>
+
+				<b>Author:</b>
+				Varun Sridharan <a href="&#109;&#x61;i&#108;&#x74;&#111;&#58;&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a><br>
+				<b>Since:</b>
+				1.0<br>
+			<b>Located at</b> <a href="source-class-WPOnion.Field.html#22-1110" title="Go to source code">core/abstract/class-field.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WPOnion.Field.html#121-162" title="Go to source code">__construct</a>( <span>array <var>$field</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$value</var> = <span class="php-keyword1">array</span>()</span>, <span>string|array <var>$unique</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>WPOnion_Field constructor.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>WPOnion_Field constructor.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="init_subfields" id="_init_subfields">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_init_subfields">#</a>
+		<code><a href="source-class-WPOnion.Field.html#164-168" title="Go to source code">init_subfields</a>( )</code>
+
+		<div class="description short">
+			<p>Fired after __constructor fired for the current plugin to handle subplugins.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fired after __constructor fired for the current plugin to handle subplugins.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_handle_field_args" id="__handle_field_args">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__handle_field_args">#</a>
+		<code><a href="source-class-WPOnion.Field.html#170-184" title="Go to source code">_handle_field_args</a>( <span> <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Handles Defaults Field Args.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handles Defaults Field Args.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle_field_args" id="_handle_field_args">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle_field_args">#</a>
+		<code><a href="source-class-WPOnion.Field.html#186-195" title="Go to source code">handle_field_args</a>( <span>array <var>$data</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>This function is called after array merge with default is done.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>This function is called after array merge with default is done.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="defaults" id="_defaults">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_defaults">#</a>
+		<code><a href="source-class-WPOnion.Field.html#197-233" title="Go to source code">defaults</a>( )</code>
+
+		<div class="description short">
+			<p>This function Returns Global Default Field Args.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>This function Returns Global Default Field Args.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WPOnion.Bridge.html#_defaults">WPOnion\Bridge::defaults()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="_data">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_data">#</a>
+		<code><a href="source-class-WPOnion.Field.html#235-252" title="Go to source code">data</a>( <span>string <var>$key</var> = <span class="php-quote">''</span></span>, <span>null <var>$value</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Check / Returns an element from $this->field.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check / Returns an element from $this->field.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_field" id="_set_field">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_field">#</a>
+		<code><a href="source-class-WPOnion.Field.html#254-262" title="Go to source code">set_field</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>Sets A Given Args To Field Array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sets A Given Args To Field Array.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="final_output" id="_final_output">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_final_output">#</a>
+		<code><a href="source-class-WPOnion.Field.html#264-283" title="Go to source code">final_output</a>( )</code>
+
+		<div class="description short">
+			<p>Generates Final HTML output of the current field.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates Final HTML output of the current field.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug_time" id="_debug_time">
+
+		<td class="attributes"><code>
+			 protected 
+
+			integer|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_debug_time">#</a>
+		<code><a href="source-class-WPOnion.Field.html#285-296" title="Go to source code">debug_time</a>( <span>boolean <var>$is_end</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$is_end</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="has" id="_has">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_has">#</a>
+		<code><a href="source-class-WPOnion.Field.html#298-310" title="Go to source code">has</a>( <span>string <var>$key</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks If current elements key exists.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks If current elements key exists.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="default_wrap_class" id="_default_wrap_class">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_default_wrap_class">#</a>
+		<code><a href="source-class-WPOnion.Field.html#312-328" title="Go to source code">default_wrap_class</a>( <span>array <var>$extra_class</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Returns Default HTML Class.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Default HTML Class.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extra_class</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_cols" id="_get_cols">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_cols">#</a>
+		<code><a href="source-class-WPOnion.Field.html#330-342" title="Go to source code">get_cols</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Field Cols</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Field Cols</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="wrapper" id="_wrapper">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_wrapper">#</a>
+		<code><a href="source-class-WPOnion.Field.html#344-414" title="Go to source code">wrapper</a>( )</code>
+
+		<div class="description short">
+			<p>Generates Elements Wrapper.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates Elements Wrapper.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="_debug">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array|boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_debug">#</a>
+		<code><a href="source-class-WPOnion.Field.html#416-431" title="Go to source code">debug</a>( <span>string <var>$key</var> = <span class="php-quote">''</span></span>, <span>array|mixed <var>$data</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Stores Debug Info.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Stores Debug Info.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_wrapper" id="_field_wrapper">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_wrapper">#</a>
+		<code><a href="source-class-WPOnion.Field.html#433-449" title="Go to source code">field_wrapper</a>( <span>boolean <var>$is_start</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+		<div class="description short">
+			<p>Renders Field Wrapper.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Renders Field Wrapper.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$is_start</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_wrap_class" id="_field_wrap_class">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_wrap_class">#</a>
+		<code><a href="source-class-WPOnion.Field.html#451-456" title="Go to source code">field_wrap_class</a>( )</code>
+
+		<div class="description short">
+			<p>Custom Hookable Function to provide custom wrap class.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Custom Hookable Function to provide custom wrap class.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="title" id="_title">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_title">#</a>
+		<code><a href="source-class-WPOnion.Field.html#458-473" title="Go to source code">title</a>( )</code>
+
+		<div class="description short">
+			<p>Renders Element Title HTML.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Renders Element Title HTML.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_help" id="_field_help">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_help">#</a>
+		<code><a href="source-class-WPOnion.Field.html#475-489" title="Go to source code">field_help</a>( )</code>
+
+		<div class="description short">
+			<p>Renders HTML for ToolTip.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Renders HTML for ToolTip.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tooltip_data" id="_tooltip_data">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tooltip_data">#</a>
+		<code><a href="source-class-WPOnion.Field.html#491-523" title="Go to source code">tooltip_data</a>( <span>array <var>$main_data</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$extra_args</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$localize</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$main_data</var></dt>
+					<dd></dd>
+					<dt><var>$extra_args</var></dt>
+					<dd></dd>
+					<dt><var>$localize</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unid" id="_unid">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unid">#</a>
+		<code><a href="source-class-WPOnion.Field.html#525-532" title="Go to source code">unid</a>( )</code>
+
+		<div class="description short">
+			<p>Returns A Unique ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns A Unique ID</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="title_before_after" id="_title_before_after">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_title_before_after">#</a>
+		<code><a href="source-class-WPOnion.Field.html#534-548" title="Go to source code">title_before_after</a>( <span>boolean <var>$is_after</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks and returns title_before and title_after key &amp; values.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks and returns title_before and title_after key &amp; values.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$is_after</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="title_desc" id="_title_desc">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_title_desc">#</a>
+		<code><a href="source-class-WPOnion.Field.html#550-557" title="Go to source code">title_desc</a>( )</code>
+
+		<div class="description short">
+			<p>Generates Title Description HTML.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates Title Description HTML.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_desc" id="_field_desc">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_desc">#</a>
+		<code><a href="source-class-WPOnion.Field.html#559-566" title="Go to source code">field_desc</a>( )</code>
+
+		<div class="description short">
+			<p>Generates Field Description HTML.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates Field Description HTML.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="before" id="_before">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean|mixed|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_before">#</a>
+		<code><a href="source-class-WPOnion.Field.html#568-575" title="Go to source code">before</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Element Before Data.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Element Before Data.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed|string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after" id="_after">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after">#</a>
+		<code><a href="source-class-WPOnion.Field.html#577-591" title="Go to source code">after</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Elements After Data.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Elements After Data.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_debug_code" id="_field_debug_code">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_debug_code">#</a>
+		<code><a href="source-class-WPOnion.Field.html#593-665" title="Go to source code">field_debug_code</a>( )</code>
+
+		<div class="description short">
+			<p>Renders Field Debug Code.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Renders Field Debug Code.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_errors" id="_get_errors">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array|false
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_errors">#</a>
+		<code><a href="source-class-WPOnion.Field.html#667-685" title="Go to source code">get_errors</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Field Errors.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Field Errors.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|false
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="has_errors" id="_has_errors">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_has_errors">#</a>
+		<code><a href="source-class-WPOnion.Field.html#687-694" title="Go to source code">has_errors</a>( )</code>
+
+		<div class="description short">
+			<p>Returns True if has errors.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns True if has errors.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_error" id="_field_error">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_error">#</a>
+		<code><a href="source-class-WPOnion.Field.html#696-712" title="Go to source code">field_error</a>( )</code>
+
+		<div class="description short">
+			<p>Renders Field Errors.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Renders Field Errors.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="element_type" id="_element_type">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_element_type">#</a>
+		<code><a href="source-class-WPOnion.Field.html#714-729" title="Go to source code">element_type</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Element Type.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Element Type.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_id" id="_field_id">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_id">#</a>
+		<code><a href="source-class-WPOnion.Field.html#731-738" title="Go to source code">field_id</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Fields ID.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Fields ID.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_sub_attributes" id="__sub_attributes">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__sub_attributes">#</a>
+		<code><a href="source-class-WPOnion.Field.html#740-760" title="Go to source code">_sub_attributes</a>( <span>array <var>$field_attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$user_attributes</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Renders Attributes HTML for FIelds sub elements.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Renders Attributes HTML for FIelds sub elements.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field_attributes</var></dt>
+					<dd></dd>
+					<dt><var>$user_attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attributes" id="_attributes">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attributes">#</a>
+		<code><a href="source-class-WPOnion.Field.html#762-804" title="Go to source code">attributes</a>( <span>array <var>$field_attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$dep_key</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Generates Field Attributes HTML.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates Field Attributes HTML.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field_attributes</var></dt>
+					<dd></dd>
+					<dt><var>$dep_key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="element_class" id="_element_class">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_element_class">#</a>
+		<code><a href="source-class-WPOnion.Field.html#806-815" title="Go to source code">element_class</a>( <span>string <var>$field_class</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Returns Fields Class.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Fields Class.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field_class</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="value" id="_value">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array|string|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_value">#</a>
+		<code><a href="source-class-WPOnion.Field.html#817-829" title="Go to source code">value</a>( <span>string <var>$key</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Returns Current Elements Value.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Current Elements Value.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|string|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_value" id="_get_value">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_value">#</a>
+		<code><a href="source-class-WPOnion.Field.html#831-840" title="Go to source code">get_value</a>( <span>string <var>$key</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks if array key exists in $this->value</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if array key exists in $this->value</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="name" id="_name">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_name">#</a>
+		<code><a href="source-class-WPOnion.Field.html#842-857" title="Go to source code">name</a>( <span>string <var>$extra_name</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Returns Elements Name.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Elements Name.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extra_name</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unique" id="_unique">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unique">#</a>
+		<code><a href="source-class-WPOnion.Field.html#859-869" title="Go to source code">unique</a>( <span>string <var>$extra</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$unique</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="base_unique" id="_base_unique">
+
+		<td class="attributes"><code>
+			 protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_base_unique">#</a>
+		<code><a href="source-class-WPOnion.Field.html#871-888" title="Go to source code">base_unique</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Base Unqiue Matchs.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Base Unqiue Matchs.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="js_field_id" id="_js_field_id">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_js_field_id">#</a>
+		<code><a href="source-class-WPOnion.Field.html#890-900" title="Go to source code">js_field_id</a>( )</code>
+
+		<div class="description short">
+			<p>Generates A New JS Field ID.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generates A New JS Field ID.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="localize_field" id="_localize_field">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_localize_field">#</a>
+		<code><a href="source-class-WPOnion.Field.html#902-929" title="Go to source code">localize_field</a>( <span>null <var>$data</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Handles JS Values For A Element.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handles JS Values For A Element.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="js_field_args" id="_js_field_args">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_js_field_args">#</a>
+		<code><a href="source-class-WPOnion.Field.html#931-938" title="Go to source code">js_field_args</a>( )</code>
+
+		<div class="description short">
+			<p>This function is used to set any args that requires in javascript for the current field.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>This function is used to set any args that requires in javascript for the current field.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle_args" id="_handle_args">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle_args">#</a>
+		<code><a href="source-class-WPOnion.Field.html#940-965" title="Go to source code">handle_args</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span>, <span>array <var>$defaults</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$force_defaults</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$defaults</var></dt>
+					<dd></dd>
+					<dt><var>$force_defaults</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle_options" id="_handle_options">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle_options">#</a>
+		<code><a href="source-class-WPOnion.Field.html#967-1013" title="Go to source code">handle_options</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span>, <span>array <var>$more_defaults</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Handles Options Value.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handles Options Value.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$more_defaults</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sub_field" id="_sub_field">
+
+		<td class="attributes"><code>
+			 protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sub_field">#</a>
+		<code><a href="source-class-WPOnion.Field.html#1015-1040" title="Go to source code">sub_field</a>( <span> <var>$field</var></span>, <span> <var>$value</var></span>, <span> <var>$unqiue</var></span>, <span>boolean <var>$is_init</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			<p>Handles Fields Sub Field instances.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handles Fields Sub Field instances.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$unqiue</var></dt>
+					<dd></dd>
+					<dt><var>$is_init</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+				<h4>Uses</h4>
+				<div class="list">
+						wponion_add_element|wponion_field<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checked" id="_checked">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checked">#</a>
+		<code><a href="source-class-WPOnion.Field.html#1042-1064" title="Go to source code">checked</a>( <span>string <var>$helper</var> = <span class="php-quote">''</span></span>, <span>string <var>$current</var> = <span class="php-quote">''</span></span>, <span>string <var>$type</var> = <span class="php-quote">'checked'</span></span>, <span>boolean <var>$echo</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			<p>Check if value is === to given value and returns an html output.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if value is === to given value and returns an html output.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$helper</var></dt>
+					<dd></dd>
+					<dt><var>$current</var></dt>
+					<dd></dd>
+					<dt><var>$type</var></dt>
+					<dd></dd>
+					<dt><var>$echo</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="element_data" id="_element_data">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_element_data">#</a>
+		<code><a href="source-class-WPOnion.Field.html#1066-1088" title="Go to source code">element_data</a>( <span>string <var>$type</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_assets" id="_field_assets">
+
+		<td class="attributes"><code>
+			abstract public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_assets">#</a>
+		<code><a href="source-class-WPOnion.Field.html#1090-1095" title="Go to source code">field_assets</a>( )</code>
+
+		<div class="description short">
+			<p>Function Required To Register / Load current field's assets.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Function Required To Register / Load current field's assets.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="field_default" id="_field_default">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_field_default">#</a>
+		<code><a href="source-class-WPOnion.Field.html#1097-1102" title="Go to source code">field_default</a>( )</code>
+
+		<div class="description short">
+			<p>Custom Function To Return Current Fields Default Args.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Custom Function To Return Current Fields Default Args.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="output" id="_output">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_output">#</a>
+		<code><a href="source-class-WPOnion.Field.html#1104-1109" title="Go to source code">output</a>( )</code>
+
+		<div class="description short">
+			<p>Function Where all field can output their html.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Function Where all field can output their html.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-WPOnion.Bridge.html#methods">WPOnion\Bridge</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WPOnion.Bridge.html#__action">_action()</a>, 
+			<a href="class-WPOnion.Bridge.html#__filter">_filter()</a>, 
+			<a href="class-WPOnion.Bridge.html#_add_action">add_action()</a>, 
+			<a href="class-WPOnion.Bridge.html#_add_filter">add_filter()</a>, 
+			<a href="class-WPOnion.Bridge.html#_catch_output">catch_output()</a>, 
+			<a href="class-WPOnion.Bridge.html#_generate_filter_slug">generate_filter_slug()</a>, 
+			<a href="class-WPOnion.Bridge.html#_get_action_filter_slugs">get_action_filter_slugs()</a>, 
+			<a href="class-WPOnion.Bridge.html#_global_action_filter">global_action_filter()</a>, 
+			<a href="class-WPOnion.Bridge.html#_handle_data">handle_data()</a>, 
+			<a href="class-WPOnion.Bridge.html#_module">module()</a>, 
+			<a href="class-WPOnion.Bridge.html#_option">option()</a>, 
+			<a href="class-WPOnion.Bridge.html#_parse_args">parse_args()</a>, 
+			<a href="class-WPOnion.Bridge.html#_plugin_id">plugin_id()</a>, 
+			<a href="class-WPOnion.Bridge.html#_set_args">set_args()</a>, 
+			<a href="class-WPOnion.Bridge.html#_set_option">set_option()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="columns" id="$columns">
+		<td class="attributes"><code>
+			protected static 
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#30-35" title="Go to source code"><var>$columns</var></a>
+
+			<div class="description short">
+				<p>columns</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>columns</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$columns" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="total_fields" id="$total_fields">
+		<td class="attributes"><code>
+			public static 
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#37-42" title="Go to source code"><var>$total_fields</var></a>
+
+			<div class="description short">
+				<p>columns</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>columns</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$total_fields" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="render_time" id="$render_time">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#44-49" title="Go to source code"><var>$render_time</var></a>
+
+			<div class="description short">
+				<p>columns</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>columns</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$render_time" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="orginal_field" id="$orginal_field">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#51-56" title="Go to source code"><var>$orginal_field</var></a>
+
+			<div class="description short">
+				<p>orginal_field</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>orginal_field</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$orginal_field" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="orginal_unique" id="$orginal_unique">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#58-63" title="Go to source code"><var>$orginal_unique</var></a>
+
+			<div class="description short">
+				<p>orginal_unique</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>orginal_unique</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$orginal_unique" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="orginal_value" id="$orginal_value">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#65-70" title="Go to source code"><var>$orginal_value</var></a>
+
+			<div class="description short">
+				<p>orginal_value</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>orginal_value</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$orginal_value" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="unique" id="$unique">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#72-77" title="Go to source code"><var>$unique</var></a>
+
+			<div class="description short">
+				<p>Database ID</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database ID</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$unique" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="field" id="$field">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#79-84" title="Go to source code"><var>$field</var></a>
+
+			<div class="description short">
+				<p>field</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>field</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$field" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="value" id="$value">
+		<td class="attributes"><code>
+			protected  
+			array|string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#86-91" title="Go to source code"><var>$value</var></a>
+
+			<div class="description short">
+				<p>value</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>value</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$value" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="is_external" id="$is_external">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#93-98" title="Go to source code"><var>$is_external</var></a>
+
+			<div class="description short">
+				<p>Value is set to true if not added value any of the core features in WPOnion.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Value is set to true if not added value any of the core features in WPOnion.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$is_external" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="errors" id="$errors">
+		<td class="attributes"><code>
+			protected  
+			null
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#100-105" title="Go to source code"><var>$errors</var></a>
+
+			<div class="description short">
+				<p>Stores Field Errors.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Field Errors.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$errors" class="anchor">#</a>
+				<code><span class="php-keyword1">null</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="debug_data" id="$debug_data">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#107-112" title="Go to source code"><var>$debug_data</var></a>
+
+			<div class="description short">
+				<p>Stores Debug Data.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Debug Data.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$debug_data" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="select_framework" id="$select_framework">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Field.html#114-119" title="Go to source code"><var>$select_framework</var></a>
+
+			<div class="description short">
+				<p>select_framework</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>select_framework</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$select_framework" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-WPOnion.Bridge.html#properties">WPOnion\Bridge</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WPOnion.Bridge.html#$module"><var>$module</var></a>, 
+			<a href="class-WPOnion.Bridge.html#$plugin_id"><var>$plugin_id</var></a>, 
+			<a href="class-WPOnion.Bridge.html#$settings"><var>$settings</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?e2f502150713aec2ca8e9da352056a47d37ca46d"></script>
+<script src="elementlist.js?2905db8f00259dfc78e62480f79b8d92da6b589b"></script>
+</body>
+</html>
